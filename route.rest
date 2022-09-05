@@ -1,0 +1,27 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/63025c50fa3a091d2383a978
+
+###
+POST http://localhost:5000/subscribers/
+Content-Type: application/json
+
+{
+    "name": "MadeCodeRD",
+    "subscribedToChannel": "Anime kilobyte"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/63025851f122862c8e89e50b
+
+###
+PATCH http://localhost:3000/subscribers/63025c50fa3a091d2383a978
+Content-Type: application/json
+
+{
+    "name": "PEPEx"
+    
+}
